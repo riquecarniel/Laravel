@@ -5,7 +5,7 @@
 @section('content')
 
 @foreach ($events as $event)
-    <p>{{ $event->title }}</p>
+    <p>{{ $event->title }} -- {{ $event->description }}</p>
 @endforeach
 
 @endsection
